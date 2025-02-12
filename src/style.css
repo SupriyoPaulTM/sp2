@@ -1,0 +1,44 @@
+:root {
+  --clr-dark: #584b53ff;
+  --clr-chocolate: #9d5c63ff;
+  --clr-milky: #d6e3f8ff;
+  --clr-hotwhite: #fef5efff;
+  --clr-redsand: #e4bb97ff;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Amaranth';
+}
+
+body {
+  min-height: 100dvh;
+  min-height: 100vh;
+  background-color: var(--clr-hotwhite);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label, input, button {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
